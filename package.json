@@ -1,0 +1,9 @@
+{
+  "name": "esbuild-typescript-type-export-error",
+  "scripts": {
+    "build": "esbuild ./src/index.ts ./src/utils.ts --format=esm --target=es2015 --outdir=dist"
+  },
+  "dependencies": {
+    "esbuild": "^0.8.39"
+  }
+}
